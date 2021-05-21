@@ -1,0 +1,41 @@
+.sobremi-contenido {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 24px;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+  margin-block-end: 40px;
+  margin-top: 14px;
+}
+
+.sobremi-p1 {
+  font-size: 24px;
+  line-height: 39px;
+  margin: 0;
+}
+
+.sobremi-p2 {
+  font: var(--headline5);
+  margin: 0;
+}
+
+
+
+@media screen and (min-width: 768px){
+  .sobremi-contenido {
+    padding-block-start: 200px;
+    padding-block-end: 200px;
+    padding-inline-start: 150px;
+    padding-inline-end: 150px;
+    margin-top: 126px;
+  }
+
+  .sobremi-p1 {
+    font-family: Oxygen;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 55px;
+  }
+}
